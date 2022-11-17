@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Cairo:wght@300&family=Cinzel&family=Fuzzy+Bubbles&family=Nunito:wght@300&family=Roboto+Condensed&family=Signika+Negative:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-c {
+  display: flex;
+}
+.c1 {
+  background-color: rgb(27, 25, 25);
+  height: 94vh;
+  width: 30vw;
+  margin: 0px 0vw 0px 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(125, 108, 104);
+  overflow: hidden;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-img {
+  height: 73vh;
+  width: 26vw;
+}
+.button {
+  height: 50px;
+  width: 152px;
+  border: none;
+  color: white;
+  background-color: #166df4;
+  margin: 10px 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.button:hover {
+  height: 51px;
+  width: 155px;
+  border: none;
+  color: white;
+  background-color: #2575ee;
+  margin: 10px 10px;
+}
+.like-button {
+  height: 35px;
+  width: 50px;
+  position: relative;
+  color: red;
+  top: -103px;
+  left: 150px;
+}
+.like-button:hover {
+  color: rgb(231, 65, 65);
+  font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 48;
+}
+.c2 {
+  /* background-color: rgb(145, 53, 53); */
+  height: 90vh;
+  width: 64vw;
+  margin: 0px 3vw 0px 0px;
+}
+.c2-title {
+  /* background-color: blue; */
+  height: 10vh;
+  width: 54vw;
+  margin: 5vh 2vw 0vh 2vw;
+  font-size: larger;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.c2-price {
+/* background-color: rgb(81, 255, 0); */
+height: 6vh;
+width: 54vw;
+margin: 1vh 2vw;
+font-size: 32px;
+display: flex;
+align-items: center;
+font-family: "Roboto Condensed", sans-serif;
+
+}
+#c2-price-dis{
+  color: rgb(128, 255, 0);
+  font-size: 20px;
+  padding: 0px 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.c2-rating{
+    /* background-color: rgb(81, 255, 0); */
+    height: 6vh;
+    width: 54vw;
+    margin: 1vh 2vw;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.c2-rating img{
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+}
+.c2-off{
+  /* background-color: rgb(4, 211, 0); */
+  height: 20vh;
+  width: 54vw;
+  margin: 2vh 2vw;
+  font-size: larger;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.c2-off ul {
+  list-style: inside;
+  list-style-type: symbols(∗);
+  color: rgb(31, 188, 31);
+}
+.c2-speci{
+  /* background-color: rgb(145, 53, 53); */
+  height: 90vh;
+  width: 64vw;
+  margin: 0px 0vw 0px 2vw;
+  list-style: none inside;
+  font-size: larger;
+  font-family: 'Nunito Sans', sans-serif;
+}
